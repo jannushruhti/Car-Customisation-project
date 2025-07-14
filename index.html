@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Car Customisation Project</title>
+</head>
+<style>
+  body {margin: 0;}
+  canvas {width: 100%; height: 100%;}
+  </style>
+ 
+<body>
+
+  <div class="page-loader">
+    <div class="spinner"></div>
+    <div class="txt">Loading...</div>
+</div>
+
+<div class="black-bar top"></div>
+<div class="black-bar bottom"></div>
+
+<div id="canvas-container"></div>
+
+<div id="settingBtn" ></div>
+<div id="closeBtn" ></div>
+
+<div class="hiddenButton buttons" id="viewInsideCar"></div>
+<div class="hiddenButton buttons" id="lightButton"></div>
+<div class="wheelbutton buttons hiddenButton" id="wheelbutton"></div>
+<div class="bodybutton buttons hiddenButton" id="bodybutton"></div>
+<div class="windowbutton buttons hiddenButton" id="windowbutton"></div>
+
+<div class="hiddenButton" id="insideCarBtnMenu"> 
+  <div id="seatsBtn"></div>
+  <div id="steeringWheelBtn"></div>
+  <div id="insideDoorBtn"></div>
+</div>
+
+
+  <div id="ChangeSeatBtn" class="insideHiddenButton buttons"></div>
+ 
+  <div id="TexSeatMenu">
+    <div class="circle t1 image1"></div>
+    <div class="circle t2 image2"></div>
+    <div class="circle t3 image3"></div>
+    <div id="closeBtnAgain"></div>
+  </div>
+  
+
+<div id="colorMenu">
+    <div class="circle blue"></div>
+    <div class="circle green"></div>
+    <div class="circle red"></div>
+    <div class="circle black"></div>
+    <div class="circle white"></div>
+    <div class="circle golden"></div>
+    <div class="circle silver"></div>
+    <div id="closeMenuBtn"></div>
+</div>
+
+<script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@v0.163.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.163.0/examples/jsm/"
+    }
+  }
+</script>
+<script type="module" src="script/main.js"></script>
+<script type="module" src="script/loading.js"></script>
+<script type="module" src="script/modelLoader.js"></script>
+<script type="module" src="script/cinematicView.js"></script>
+<script type="module" src="script/customiseView.js"></script>
+</body>
+</html>
