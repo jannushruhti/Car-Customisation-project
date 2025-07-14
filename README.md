@@ -2,7 +2,7 @@
 
 This project is a web-based car customization tool created with Three.js, a popular 3D graphics library for JavaScript. It allows users to interactively change the textures and colors of various components of a car model.
 
-Website Link: https://franbowden.github.io/Car-Customisation-Project/
+Website Link: https://github.com/jannushruhti/Car-Customisation-project
 
 #### Features:
 - **Interactive Interface**: Users can easily modify the car's appearance in real-time through an intuitive interface.
